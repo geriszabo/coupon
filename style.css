@@ -8,7 +8,7 @@ body {
   perspective: 1000px;
   overflow: none;
   background-image: linear-gradient(to right, #ba5370, #f0c9da);
-  background-size: 100%;
+  background-size: 400%;
   animation: bg-animation 10s infinite alternate;
 }
 
@@ -47,9 +47,6 @@ body {
   z-index: 1;
   animation: slide 7s infinite;
 
-  /* 
-  CSS Gradient - complete browser support from http://www.colorzilla.com/gradient-editor/ 
-  */
   background: -moz-linear-gradient(
     left,
     rgba(255, 255, 255, 0) 0%,
@@ -96,8 +93,7 @@ body {
     rgba(255, 255, 255, 0.8) 50%,
     rgba(128, 186, 232, 0) 99%,
     rgba(125, 185, 232, 0) 100%
-  ); /* W3C */
-  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#007db9e8',GradientType=1 ); IE6-9 */
+  );
 }
 
 @keyframes slide {
